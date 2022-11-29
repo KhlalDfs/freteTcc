@@ -1,2 +1,0 @@
-# freteTcc
-ProjetoTCC
