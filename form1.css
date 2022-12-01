@@ -1,0 +1,125 @@
+body{
+    background-color: #1b1f27;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+input::placeholder{
+    color: #aaacb1;
+    font-size: 14px;
+    padding-left: 12px;
+}
+.area-login{
+    display: flex;
+    width: auto;
+}
+.area-cadastro{
+    display: flex;
+    width: 80%;
+    height: 100%;
+}
+.login{
+    display: flex;
+    align-items: center;
+    background:linear-gradient(45deg, #252a34, #4a5468);
+    border-radius: 10px;
+    width: 60%;
+    height: 60%;
+    padding: 12px;
+}
+.cadastro{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background:linear-gradient(65deg, #252a34, #4a5468);
+    border-radius: 10px;
+    width: 80%;
+    height: 80%;
+    padding: 35px;
+}
+.login form{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+}
+.login input{
+    margin-top: 10px;
+    background:linear-gradient(45deg, #2d3138, #585f6b);
+    color: #cbd0f7;
+    border: none;
+    height: 45px;
+    outline: none;
+    border-radius: 8px;
+}
+.cadastro form{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+}
+.cadastro input{
+    margin-top: 10px;
+    background:linear-gradient(45deg, #252a34, #65728d);
+    color: #cbd0f7;
+    border: none;
+    height: 45px;
+    outline: none;
+    border-radius: 8px;
+}
+.login img{
+    border-radius: 8px;
+    width: 65px;
+    height: 65px;
+}
+.cadastro img{
+    border-radius: 8px;
+    width: 65px;
+    height: 65px;
+}
+form [type="submit"]{
+    display: block;
+    background-color: rgb(20, 18, 88);
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    cursor: pointer;
+}
+.back p{
+    display: inline-block;
+    align-items: center;
+    text-decoration: none;
+}
+a{
+    color: white;
+    text-decoration: none;
+    margin-left: 10px;
+}
+.login select{
+    font-size: 14px;
+    padding-left: 10px;
+    margin-top: 10px;
+    background-color: black;
+    color: black;
+    border: none;
+    height: 45px;
+    outline: none;
+    border-radius: 8px;
+    align-content: center;
+}
+.cadastro select{
+    font-size: 14px;
+    padding-left: 10px;
+    margin-top: 10px;
+    background:linear-gradient(55deg, #252a34, #65728d);
+    color: #cbd0f7;
+    border: none;
+    height: 45px;
+    outline: none;
+    border-radius: 8px;
+    align-content: center;
+}
+.voltar{
+    margin-top: 15px;
+    width: 20%;
+    height: 5%;
+}
+.voltar svg{
+    font-size: 25px;
+}
